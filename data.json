@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "firstName": "Miko",
+    "lastName": "Kebede",
+    "email": "mekash@example.com",
+    "contact": "0912345678",
+    "dob": "1995-06-15",
+    "salary": "5000",
+    "image": ""
+  },
+  {
+    "id": 2,
+    "firstName": "Sara",
+    "lastName": "Abebe",
+    "email": "sara@example.com",
+    "contact": "0987654321",
+    "dob": "1998-03-22",
+    "salary": "6000",
+    "image": ""
+  }
+]

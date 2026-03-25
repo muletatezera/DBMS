@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Database Managment System</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <header class="headers" id="headercontainer">
+      <div>
+        <h2>employee database managment system</h2>
+      </div>
+      <div>
+        <a href="./form.html">
+          <input
+            type="button"
+            value="Add Employee"
+            class="add-employee"
+            id="add-btn"
+        /></a>
+      </div>
+    </header>
+
+    <div class="employeeSection" id="employee-container">
+      <div class="employeeList" id="employeeListContainer">
+        <h3>employee list</h3>
+        <hr />
+        <span id="employee-list"></span>
+      </div>
+
+      <div class="employeeInformation" id="employeeInformationSection">
+        <h3>employee information</h3>
+        <hr />
+        <span id="employeeInfo"></span>
+      </div>
+    </div>
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
