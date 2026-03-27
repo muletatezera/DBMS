@@ -4,7 +4,6 @@ const employeeList = document.getElementById("employee-list");
 const employeeInfo = document.getElementById("employeeInfo");
 
 function loadEmployees() {
-  // Try localStorage first
   const stored = JSON.parse(localStorage.getItem("employees"));
   if (stored && stored.length > 0) {
     employees = stored;
@@ -61,5 +60,4 @@ function deleteEmployee(id) {
   employeeInfo.innerHTML = "";
 }
 
-// Initialize
 document.addEventListener("DOMContentLoaded", loadEmployees);
